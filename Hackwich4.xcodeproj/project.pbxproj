@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		D48ED4E528D948E200028421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48ED4E428D948E200028421 /* AppDelegate.swift */; };
 		D48ED4E728D948E200028421 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48ED4E628D948E200028421 /* SceneDelegate.swift */; };
-		D48ED4E928D948E200028421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48ED4E828D948E200028421 /* ViewController.swift */; };
 		D48ED4EC28D948E200028421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48ED4EA28D948E200028421 /* Main.storyboard */; };
 		D48ED4EE28D948E400028421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48ED4ED28D948E400028421 /* Assets.xcassets */; };
 		D48ED4F128D948E400028421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48ED4EF28D948E400028421 /* LaunchScreen.storyboard */; };
+		D48ED4F928D94A9600028421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48ED4F828D94A9600028421 /* ViewController.swift */; };
+		D48ED4FB28D94DB600028421 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48ED4FA28D94DB600028421 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D48ED4E128D948E200028421 /* Hackwich4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackwich4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48ED4E428D948E200028421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D48ED4E628D948E200028421 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D48ED4E828D948E200028421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D48ED4EB28D948E200028421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D48ED4ED28D948E400028421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D48ED4F028D948E400028421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D48ED4F228D948E400028421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48ED4F828D94A9600028421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D48ED4FA28D94DB600028421 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		D48ED4E328D948E200028421 /* Hackwich4 */ = {
 			isa = PBXGroup;
 			children = (
+				D48ED4FA28D94DB600028421 /* secondViewController.swift */,
 				D48ED4E428D948E200028421 /* AppDelegate.swift */,
 				D48ED4E628D948E200028421 /* SceneDelegate.swift */,
-				D48ED4E828D948E200028421 /* ViewController.swift */,
+				D48ED4F828D94A9600028421 /* ViewController.swift */,
 				D48ED4EA28D948E200028421 /* Main.storyboard */,
 				D48ED4ED28D948E400028421 /* Assets.xcassets */,
 				D48ED4EF28D948E400028421 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D48ED4E928D948E200028421 /* ViewController.swift in Sources */,
+				D48ED4FB28D94DB600028421 /* secondViewController.swift in Sources */,
+				D48ED4F928D94A9600028421 /* ViewController.swift in Sources */,
 				D48ED4E528D948E200028421 /* AppDelegate.swift in Sources */,
 				D48ED4E728D948E200028421 /* SceneDelegate.swift in Sources */,
 			);
