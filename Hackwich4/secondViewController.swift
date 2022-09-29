@@ -14,7 +14,8 @@ class secondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.secondTabLabel.text = "My Classes"
     }
 
 }

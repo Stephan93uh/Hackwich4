@@ -34,7 +34,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Yh-vs-Wys" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="354" y="19"/>
+            <point key="canvasLocation" x="354" y="-338"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="UI4-Pf-fnf">
+            <objects>
+                <navigationController id="nup-uD-pvh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favorites" image="heart.fill" catalog="system" id="tDF-yo-Nmw"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Yg-JH-IHJ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Szz-Mo-8NN" kind="relationship" relationship="rootViewController" id="cHa-Oi-gfL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ixN-cN-uRt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-430" y="391"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="iPr-0U-CE3">
+            <objects>
+                <viewController id="Szz-Mo-8NN" customClass="thirdViewController" customModule="Hackwich4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="he8-Ey-BQa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uvx-eB-Clv">
+                                <rect key="frame" x="140" y="426" width="134" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I want green!"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="Szz-Mo-8NN" eventType="touchUpInside" id="RiJ-rO-Qei"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hig-ka-isg">
+                                <rect key="frame" x="83" y="88" width="248" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HGX-fh-14e"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6P3-Jv-JWO"/>
+                    <connections>
+                        <outlet property="thirdLabel" destination="hig-ka-isg" id="opu-Nh-8g7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DVO-y9-e8Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="353.62318840579712" y="389.73214285714283"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aOP-fs-bJh">
@@ -62,7 +116,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dQU-VS-rUS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="353.62318840579712" y="-640.17857142857144"/>
+            <point key="canvasLocation" x="354" y="-1048"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="FTE-iM-Yxv">
@@ -76,6 +130,7 @@
                     <connections>
                         <segue destination="XyM-eV-2w4" kind="relationship" relationship="viewControllers" id="YKs-sV-3jA"/>
                         <segue destination="665-OA-6rV" kind="relationship" relationship="viewControllers" id="hRa-Lg-trX"/>
+                        <segue destination="nup-uD-pvh" kind="relationship" relationship="viewControllers" id="56c-2U-jKs"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dNr-kH-p48" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -99,7 +154,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XNe-1e-aiZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-428.98550724637687" y="-640.17857142857144"/>
+            <point key="canvasLocation" x="-430" y="-1047"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="BwA-aA-JuR">
@@ -118,10 +173,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xFK-xi-muj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-429" y="20"/>
+            <point key="canvasLocation" x="-430" y="-338"/>
         </scene>
     </scenes>
     <resources>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

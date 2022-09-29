@@ -14,6 +14,7 @@
 		D48ED4F128D948E400028421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48ED4EF28D948E400028421 /* LaunchScreen.storyboard */; };
 		D48ED4F928D94A9600028421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48ED4F828D94A9600028421 /* ViewController.swift */; };
 		D48ED4FB28D94DB600028421 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48ED4FA28D94DB600028421 /* secondViewController.swift */; };
+		D48ED4FD28E58D3E00028421 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48ED4FC28E58D3E00028421 /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D48ED4F228D948E400028421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D48ED4F828D94A9600028421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D48ED4FA28D94DB600028421 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		D48ED4FC28E58D3E00028421 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		D48ED4E328D948E200028421 /* Hackwich4 */ = {
 			isa = PBXGroup;
 			children = (
+				D48ED4FC28E58D3E00028421 /* thirdViewController.swift */,
 				D48ED4FA28D94DB600028421 /* secondViewController.swift */,
 				D48ED4E428D948E200028421 /* AppDelegate.swift */,
 				D48ED4E628D948E200028421 /* SceneDelegate.swift */,
@@ -143,6 +146,7 @@
 			files = (
 				D48ED4FB28D94DB600028421 /* secondViewController.swift in Sources */,
 				D48ED4F928D94A9600028421 /* ViewController.swift in Sources */,
+				D48ED4FD28E58D3E00028421 /* thirdViewController.swift in Sources */,
 				D48ED4E528D948E200028421 /* AppDelegate.swift in Sources */,
 				D48ED4E728D948E200028421 /* SceneDelegate.swift in Sources */,
 			);
